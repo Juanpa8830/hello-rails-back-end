@@ -5,8 +5,8 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
+node_modules
 /.bundle
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -29,4 +29,3 @@
 .env
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-node_modules
